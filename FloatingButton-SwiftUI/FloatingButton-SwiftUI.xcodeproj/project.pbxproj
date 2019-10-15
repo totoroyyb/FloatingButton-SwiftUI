@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AB73EA234EE6E6006330DC /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB73E9234EE6E6006330DC /* FloatingButton.swift */; };
+		21AB73EE234EED97006330DC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB73ED234EED97006330DC /* Resource.swift */; };
 		21B7019723015FBE00500E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B7019623015FBE00500E28 /* AppDelegate.swift */; };
 		21B7019923015FBE00500E28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B7019823015FBE00500E28 /* SceneDelegate.swift */; };
 		21B7019B23015FBE00500E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B7019A23015FBE00500E28 /* ContentView.swift */; };
 		21B7019D23015FBE00500E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B7019C23015FBE00500E28 /* Assets.xcassets */; };
 		21B701A023015FBE00500E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B7019F23015FBE00500E28 /* Preview Assets.xcassets */; };
 		21B701A323015FBE00500E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B701A123015FBE00500E28 /* LaunchScreen.storyboard */; };
+		C5B41E2D64CD9576D4581DB3 /* Pods_FloatingButton_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62B7404ED2E7B1C27D183B8 /* Pods_FloatingButton_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21AB73E9234EE6E6006330DC /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		21AB73ED234EED97006330DC /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		21B7019323015FBE00500E28 /* FloatingButton-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloatingButton-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B7019623015FBE00500E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21B7019823015FBE00500E28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		21B7019F23015FBE00500E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21B701A223015FBE00500E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B701A423015FBE00500E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BAA92962754C95BF2766BD /* Pods-FloatingButton-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-FloatingButton-SwiftUI/Pods-FloatingButton-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		B775D3545692257CC1E61190 /* Pods-FloatingButton-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-FloatingButton-SwiftUI/Pods-FloatingButton-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		E62B7404ED2E7B1C27D183B8 /* Pods_FloatingButton_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingButton_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B41E2D64CD9576D4581DB3 /* Pods_FloatingButton_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				21B7019523015FBE00500E28 /* FloatingButton-SwiftUI */,
 				21B7019423015FBE00500E28 /* Products */,
+				48325DAA3EF5E8068DF6BEDD /* Pods */,
+				665449D7299F31029D979CF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +70,8 @@
 				21B7019623015FBE00500E28 /* AppDelegate.swift */,
 				21B7019823015FBE00500E28 /* SceneDelegate.swift */,
 				21B7019A23015FBE00500E28 /* ContentView.swift */,
+				21AB73E9234EE6E6006330DC /* FloatingButton.swift */,
+				21AB73ED234EED97006330DC /* Resource.swift */,
 				21B7019C23015FBE00500E28 /* Assets.xcassets */,
 				21B701A123015FBE00500E28 /* LaunchScreen.storyboard */,
 				21B701A423015FBE00500E28 /* Info.plist */,
@@ -75,6 +88,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		48325DAA3EF5E8068DF6BEDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B775D3545692257CC1E61190 /* Pods-FloatingButton-SwiftUI.debug.xcconfig */,
+				31BAA92962754C95BF2766BD /* Pods-FloatingButton-SwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		665449D7299F31029D979CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62B7404ED2E7B1C27D183B8 /* Pods_FloatingButton_SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B701A723015FBE00500E28 /* Build configuration list for PBXNativeTarget "FloatingButton-SwiftUI" */;
 			buildPhases = (
+				78E4234751E5A98F478967CC /* [CP] Check Pods Manifest.lock */,
 				21B7018F23015FBE00500E28 /* Sources */,
 				21B7019023015FBE00500E28 /* Frameworks */,
 				21B7019123015FBE00500E28 /* Resources */,
+				6357809B5E7B007A41868362 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +173,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6357809B5E7B007A41868362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingButton-SwiftUI/Pods-FloatingButton-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingButton-SwiftUI/Pods-FloatingButton-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FloatingButton-SwiftUI/Pods-FloatingButton-SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E4234751E5A98F478967CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingButton-SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21B7018F23015FBE00500E28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,6 +223,8 @@
 				21B7019723015FBE00500E28 /* AppDelegate.swift in Sources */,
 				21B7019923015FBE00500E28 /* SceneDelegate.swift in Sources */,
 				21B7019B23015FBE00500E28 /* ContentView.swift in Sources */,
+				21AB73EE234EED97006330DC /* Resource.swift in Sources */,
+				21AB73EA234EE6E6006330DC /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		21B701A823015FBE00500E28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B775D3545692257CC1E61190 /* Pods-FloatingButton-SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +379,7 @@
 		};
 		21B701A923015FBE00500E28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BAA92962754C95BF2766BD /* Pods-FloatingButton-SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

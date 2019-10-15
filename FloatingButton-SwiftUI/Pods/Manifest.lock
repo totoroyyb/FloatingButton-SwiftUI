@@ -1,0 +1,16 @@
+PODS:
+  - Hue (5.0.0)
+
+DEPENDENCIES:
+  - Hue
+
+SPEC REPOS:
+  trunk:
+    - Hue
+
+SPEC CHECKSUMS:
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+
+PODFILE CHECKSUM: 9deb2a10e620a59a7aef8eb08332c84a81cd1413
+
+COCOAPODS: 1.8.3

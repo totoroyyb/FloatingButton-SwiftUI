@@ -1,0 +1,6 @@
+framework module Pods_FloatingButton_SwiftUI {
+  umbrella header "Pods-FloatingButton-SwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

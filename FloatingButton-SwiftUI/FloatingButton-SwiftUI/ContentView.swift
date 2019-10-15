@@ -9,22 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var translation = CGSize.zero
-    
     var body: some View {
-        Circle()
-            .offset(x: translation.width, y: translation.height)
-            .frame(width: 40, height: 40)
-            .gesture(
-                DragGesture()
-                    .onChanged({ (value) in
-                        self.translation = value.translation
-                    })
-                    .onEnded({ (value) in
-                        self.translation = CGSize.zero
-                    })
-            )
-            .animation(.interpolatingSpring(mass: 0.1, stiffness: 45, damping: 45, initialVelocity: 15))
+        
+        FloatingButton()
     }
 }
 
