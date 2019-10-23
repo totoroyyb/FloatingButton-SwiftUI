@@ -18,24 +18,34 @@ struct FloatingButton: View {
     
     var overlayImage = Image(systemName: "plus")
     
-        
+    
     var body: some View {
-        Circle()
-            .fill(fillColor)
-            .overlay(overlayImage)
-            .offset(x: translation.width, y: translation.height)
-            .frame(width: 50, height: 50)
-            .gesture(
-                DragGesture()
-                    .onChanged({ (value) in
-                        self.translation = value.translation
-                    })
-                    .onEnded({ (value) in
-                        self.translation = CGSize.zero
-                    })
+        ZStack {
+            Circle()
+                .fill(fillColor)
+                .overlay(overlayImage)
+                .offset(x: translation.width, y: translation.height)
+                .frame(width: 50, height: 50)
+                .gesture(
+                    DragGesture()
+                        .onChanged({ (value) in
+                            self.translation = value.translation
+                        })
+                        .onEnded({ (value) in
+                            self.translation = CGSize.zero
+                        })
             )
-            .animation(.interpolatingSpring(stiffness: 40, damping: 40))
+                .animation(.interpolatingSpring(stiffness: 40, damping: 40))
+            Button(action: {
+                print("Cliked")
+            }, label: {
+                Text("+")
+            })
             
+            
+        }
+        
+        
     }
 }
 
